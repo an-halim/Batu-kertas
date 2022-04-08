@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batu Kertas Gunting</title>
+    <link rel="shortcut icon" href="./assets/images/kertas.png" type="image/png">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <!-- Copyright github.com/an-halim -->
+</head>
+<body>
+    <div class="desktop">
+        <h1>Mohon maaf game ini hanya support mobile</h1>
+    </div>
+    <div class="mobile">
+        <div class="score">
+            <div class="bot">          
+                <img src="./assets/images/bot.jpg" alt="bot-pic">
+                <span>BOT</span>
+                <p id="bot-score">0</p>
+            </div>
+            <img src="./assets/images/versus.jpg" alt="versus">
+            <div class="player">          
+                <img src="./assets/images/player.png" alt="player-pic">
+                <span id="playerName"></span>
+                <p id="player-score">0</p>
+            </div>
+        </div>
+        <div class="result">
+            <h1>Hasil Suit</h1>
+            <div id="result-container">
+                <img id="result-item-bot" src="" alt="" >
+                <h2>VS</h2>
+                <img id="result-item-player" src="" alt="">
+            </div>
+            <div id="res"></div>
+        </div>
+    
+        <div class="option">
+            <a id="batu" onclick="clickHandler(this)">
+                <img src="./assets/images/batu.png" alt="batu">
+                <span>BATU</span>
+            </a>
+            <a id="kertas" onclick="clickHandler(this)">
+                <img src="./assets/images/kertas.png" alt="kertas">
+                <span>KERTAS</span>
+            </a>
+            <a id="gunting" onclick="clickHandler(this)">
+                <img src="./assets/images/gunting.png" alt="gunting">
+                <span>GUNTING</span>
+            </a>
+        </div>
+    </div>
+    <footer>Make with ❤ by <a href="https://instagram.com/_anhalim">_anhalim</a></footer>
+    <noscript>
+        <h1 style="font-style: italic;">Mohon maaf game ini hanya support javascript</h1>
+    </noscript>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
